@@ -69,6 +69,9 @@ export default class Repository extends Component {
           <img src={repository.owner.avatar_url} alt={repository.owner.login} />
           <h1>{repository.name}</h1>
           <p>{repository.description}</p>
+          <div>
+            <p>Language: {repository.language}</p>
+          </div>
         </Owner>
         <IssueList>
           {issues.map(issue => (
@@ -76,13 +79,16 @@ export default class Repository extends Component {
               <img src={issue.user.avatar_url} alt={issue.user.login} />
               <div>
                 <strong>
-                  <a href={issue.html_user}>{issue.title}</a>
+                  <a href={issue.html_url}>{issue.title}</a>
+                  {issue.labels.map(label => (
+                    <span key={String(label.id)}>{label.name}</span>
+                  ))}
                 </strong>
+                <p>{issue.user.login}</p>
               </div>
             </li>
           ))}
         </IssueList>
-        Repository {repository.name} {repository.language}
       </Container>
     );
   }

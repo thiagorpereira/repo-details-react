@@ -36,7 +36,7 @@ export const Owner = styled.header`
   align-items: center;
 
   a {
-    color: #7159c1;
+    color: #007ea7;
     font-size: 16px;
     text-decoration: none;
   }
@@ -59,6 +59,71 @@ export const Owner = styled.header`
     text-align: center;
     max-width: 400px;
   }
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
-export const IssueList = styled.ul``;
+export const IssueList = styled.ul`
+  border-top: 1px solid #eee;
+  margin-top: 30px;
+  padding-top: 30px;
+  list-style: none;
+
+  li {
+    display: flex;
+    padding: 15px 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+
+    /*Segundo Li pra frente */
+    & + li {
+      margin-top: 10px;
+    }
+
+    img {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      border: 2px solid #eee;
+    }
+
+    div {
+      flex: 1; /* ocupar tudo */
+      margin-left: 15px;
+
+      strong {
+        font-size: 16px;
+
+        a {
+          text-decoration: none;
+          color: #333;
+
+          /* Ao passar o mouse */
+          &:hover {
+            color: #007ea7;
+          }
+        }
+
+        span {
+          background: #eee;
+          color: #333;
+          border-radius: 2px;
+          font-size: 12px;
+          font-weight: 600;
+          height: 20px;
+          padding: 3px 4px;
+          margin-left: 10px;
+        }
+      }
+
+      p {
+        margin-top: 5px;
+        font-size: 12px;
+        color: #999;
+      }
+    }
+  }
+`;
