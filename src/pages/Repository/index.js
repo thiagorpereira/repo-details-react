@@ -99,7 +99,6 @@ export default class Repository extends Component {
     if (loading) {
       return (
         <Loading loading={loading}>
-          Caregando
           <FaSpinner color="#FFF" size={14} />
         </Loading>
       );
