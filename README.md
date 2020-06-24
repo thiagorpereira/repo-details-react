@@ -8,11 +8,17 @@
 
 <div><img src="repo.png" alt="drawing" /></div>
 
+<p align="center">
+  <a href="https://thiagorpereira-repolist.herokuapp.com/" target="_blank">
+    <img alt="Demo on Heroku" src="demo_on_heroku.png">
+  </a>
+</p>
+
 <div align="center"><img src="issues.png" alt="drawing" /></div>
 
-## :rocket: Technologies
+### [Live Demo on Netlify](https://thiagorpereira-github.netlify.app/)
 
-This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) with the following technologies:
+## :rocket: Technologies
 
 -  [ReactJS](https://reactjs.org/)
 -  [React Router v4](https://github.com/ReactTraining/react-router)
