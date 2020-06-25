@@ -6,7 +6,15 @@
   List your favorite GitHub repositories and see information and issues for each of them.
 </h4>
 
-<div><img src="repo.png" alt="drawing" /></div>
+<p align="center">
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://thiagorpereira-repolist.herokuapp.com">Deploy</a>
+</p>
+
+<div align="center"><img src="repo-details.gif" alt="repo-details-gif" /></div>
 
 <p align="center">
   <a href="https://thiagorpereira-repolist.herokuapp.com/" target="_blank">
@@ -14,11 +22,9 @@
   </a>
 </p>
 
-<div align="center"><img src="issues.png" alt="drawing" /></div>
-
-### [Live Demo on Netlify](https://thiagorpereira-github.netlify.app/)
-
 ## :rocket: Technologies
+
+This project was developed with the following technologies:
 
 -  [ReactJS](https://reactjs.org/)
 -  [React Router v4](https://github.com/ReactTraining/react-router)
